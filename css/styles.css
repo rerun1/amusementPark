@@ -1,0 +1,194 @@
+/*begin tisa*/
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaReg.eot');
+  src : url('../fonts/tisa/tisaReg.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaReg.woff2') format('woff2'),
+        url('../fonts/tisa/tisaReg.woff') format('woff'),
+        url('../fonts/tisa/tisaReg.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaRegIt.eot');
+  src : url('../fonts/tisa/tisaRegIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaRegIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaRegIt.woff') format('woff'),
+        url('../fonts/tisa/tisaRegIt.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular italic*/
+  font-style: italic;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaBold.eot');
+  src : url('../fonts/tisa/tisaBold.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaBold.woff2') format('woff2'),
+        url('../fonts/tisa/tisaBold.woff') format('woff'),
+        url('../fonts/tisa/tisaBold.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold */
+  font-style: bold;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaBoldIt.eot');
+  src : url('../fonts/tisa/tisaBoldIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaBoldIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaBoldIt.woff') format('woff'),
+        url('../fonts/tisa/tisaBoldIt.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*begin tisa*/
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansReg.eot');
+  src : url('../fonts/tisa/tisaSansReg.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansReg.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansReg.woff') format('woff'),
+        url('../fonts/tisa/tisaSansReg.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansRegIt.eot');
+  src : url('../fonts/tisa/tisaSansRegIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansRegIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansRegIt.woff') format('woff'),
+        url('../fonts/tisa/tisaSansRegIt.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular italic*/
+  font-style: italic;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansBold.eot');
+  src : url('../fonts/tisa/tisaSansBold.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansBold.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansBold.woff') format('woff'),
+        url('../fonts/tisa/tisaSansBold.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold */
+  font-style: bold;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansBoldIt.eot');
+  src : url('../fonts/tisa/tisaSansBoldIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansBoldIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansBoldIt.woff') format('woff'),
+        url('../fonts/tisa/tisaSansBoldIt.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+
+.tisa {
+  font-family: 'ff-tisa-web-pro', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+.tisaReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.tisaRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.tisaBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.tisaBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+.tisaSans {
+  font-family: 'ff-tisa-sans-web-pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+.tisaSansReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.tisaSansRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.tisaSansBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.tisaSansBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+
+
+/*end tisa*/
+
+
+body {
+  font-family: 'ff-tisa-sans-web-pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  color: rgba(255,255,255, 1.0);
+  background-image: url("../img/japanPark.jpeg");
+  background-repeat: no-repeat;
+  background-position: left 0px top 500px;
+  background-color: rgba(76, 86, 96, 1.0);
+  background-size: cover;
+}
+h1 {
+  font-family: 'ff-tisa-web-pro', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-top:.5em;
+  margin-bottom: .25em;
+}
+h3 {
+color: rgba(255,255,255, 0.65);
+}
+.inch48 {
+  color: rgba(76, 86, 96, 1.0);
+}
+.adultRide {
+  background-color: rgba(255,255,255, 0.25);
+  padding-top:.5em;
+}
+.adultRide img {
+  float: right;
+  height: 150px;
+  margin-bottom: 1em;
+}
+.adultRide p {
+  color: rgba(255,255,255, 0.75);
+}
