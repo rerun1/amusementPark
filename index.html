@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scal=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
@@ -11,23 +11,175 @@
   </head>
   <body>
     <div class="container-fluid">
-      <h1>Suzi's World</h1>
-      <div class="row adultRide">
-        <div class="col-4">
-          <img src="img/millenium560x1000.jpg" alt="millineum force ride">
-        </div>
-        <div class="col-6">
-          <h3>Millineum Force</h3>
-          <p>The park’s most popular ride, a 310-foot-tall, steel coaster with a two-minute ride reaches speeds of 93 mph. <span class="inch48">Riders must be at least 48 inches tall.</span></p>
+      <div class="intro">
+        <h1>Suzi's World</h1>
+        <p class="tisaBoldItalic">A plethora of the BEST amusement rides!</p>
+      </div>
+      <div class="row align-items-center">
+        <div id="rideConditions1" class="col-5">
+          <p>You may go on the rides with blue height requirements and accompany children on rides with green height requirements. You are much too big to ride on the rides whose requirements are in red.</p>
         </div>
       </div>
-      <div class="row adultRide">
-        <div class="col-4">
-          <img src="img/jurassicPark.jpeg" alt="jurassic park ride">
+      <div class="row align-items-center">
+          <div id="rideConditions2" class="col-7">
+          <p>You are too short to go on requirements shown in blue (but that will change sooner than you think, sorry!) and too big to ride on the baby rides with requirements in red. </p>
         </div>
-        <div class="col-6">
-          <h3>Jurassic Park</h3>
-          <p>Come face-to-face with "living" dinosaurs, a 50-foot T-Rex, and a treacherous drop straight down an 84-foot death-defying raft plunge. <span class="inch48">Riders must be at least 48 inches tall.</span></p>
+      </div>
+      <div class="row align-items-center">
+        <div id="rideConditions3" class="col-7">
+          <p>Children who at least 12 inches tall can go on all rides with the requirements that are in green. These rides are too small for anyone over 20 inches tall. Just babies dang it!</p>
+        </div>
+      </div>
+      <div id="introImagery" class="container imagery">
+        <div class="row">
+          <div class="col-6 pl-0 pr-0">
+            <img src="img/jurassicPark.jpeg" alt="jurassic park">
+          </div>
+          <div class="col-6 pl-0 pr-0">
+            <img src="img/forbidden.jpeg" alt="harry potter ride">
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-6">
+            <p>Enter your height in inches and find an adventure!</p>
+            <form id="height">
+              <div class="form-row form-inline">
+                <div class="col-12 align-items-center form-group">
+                  <input type="text" id="heightInput">
+                  <button type="submit">Enter height</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-6 pl-0 pr-0">
+            <img src="img/storyland.jpg" alt="storyland">
+          </div>
+        </div>
+      </div>
+      <div class="ridesContainer">
+        <div id="adultRides">
+          <div class="row rides adultRide">
+            <div class="col-4">
+              <img src="img/millenium560x1000.jpg" alt="millineum force ride">
+            </div>
+            <div class="col-6">
+              <h3>Millineum Force</h3>
+              <p>The park’s most popular ride, a 310-foot-tall, steel coaster with a two-minute ride reaches speeds of 93 mph. <span class="inch48">Riders must be at least 48 inches tall.</span></p>
+            </div>
+          </div>
+          <div class="row rides adultRide">
+            <div class="col-4">
+              <img src="img/jurassicPark.jpeg" alt="jurassic park ride">
+            </div>
+            <div class="col-6">
+              <h3>Jurassic Park</h3>
+              <p>Come face-to-face with "living" dinosaurs, a 50-foot T-Rex, and a treacherous drop straight down an 84-foot death-defying raft plunge. <span class="inch48">Riders must be at least 48 inches tall.</span></p>
+            </div>
+          </div>
+          <div class="row rides adultRide">
+            <div class="col-4">
+              <img src="img/dudley-do-right.jpg" alt="jurassic park ride">
+            </div>
+            <div class="col-6">
+              <h3>Dudley-Do-Right's Ripsaw Falls</h3>
+              <p>This beloved family water ride is known for its charm and sense of humor. Features like parodies of popular movies that line the entrance and a section of the ride that parodies Mr. Toad's Wild Ride <span class="inch48">Riders must be at least 48 inches tall.</span></p>
+            </div>
+          </div>
+          <div class="row rides adultRide">
+            <div class="col-4">
+              <img src="img/dudley-do-right.jpg" alt="dudley do rights ripsaw falls ride">
+            </div>
+            <div class="col-6">
+              <h3>Dudley-Do-Right's Ripsaw Falls</h3>
+              <p>This beloved family water ride is known for its charm and sense of humor. Features like parodies of popular movies that line the entrance and a section of the ride that parodies Mr. Toad's Wild Ride <span class="inch48">Riders must be at least 48 inches tall.</span></p>
+            </div>
+          </div>
+          <div class="row rides adultRide">
+            <div class="col-4">
+              <img src="img/thunderhead.jpeg" alt="thunderhead at dollywood">
+            </div>
+            <div class="col-6">
+              <h3>Thunderhead at Dollywood</h3>
+              <p>700,000 board feet of Southern Yellow Pine were used to create The Thunderhead, which features 22 turns and 32 crossovers. The Thunderhead anchors Dollywood's new historically-inspired Thunderhead Gap section <span class="inch48">Riders must be at least 48 inches tall.</span></p>
+            </div>
+          </div>
+          <div class="row rides adultRide">
+            <div class="col-4">
+              <img src="img/fabio.jpeg" alt="fabio gets hit by goose">
+            </div>
+            <div class="col-6">
+              <h3>Apollo's Chariot</h3>
+              <p>Though Apollo's Chariot opened under inauspicious circumstances when ride spokesman and super model Fabio was struck in the face by a passing goose, the ride has gone onto become a fan favorite signature ride at Busch Gardens.  <span class="inch48">Riders must be at least 48 inches tall.</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- begin kids rides -->
+        <div id="kidsRides">
+          <div class="row rides kidsRide">
+            <div class="col-4">
+              <img src="img/forbidden.jpeg" alt="harry potter's forbidden journey">
+            </div>
+            <div class="col-6">
+              <h3>Harry Potter's Forbidden Journey</h3>
+              <p>From the queue that winds through the Hogwarts School, to the innovative robotic arm ride system and the combination of real sets and projected media, everything about this attraction conspires to wholly immerse guests into the world of Harry Potter. It is a remarkable achievement that immediately leaped to the top of the best attractions list.  <span class="inch24">Riders must be at least 24 inches tall.</span></p>
+            </div>
+          </div>
+          <div class="row rides kidsRide">
+            <div class="col-4">
+              <img src="img/spiderman.jpeg" alt="spiderman">
+            </div>
+            <div class="col-6">
+              <h3>Amazing Adventures of Spiderman</h3>
+              <p>This incredible attraction combines a groundbreaking roving motion base simulator technology with a 3-D film experience to totally immerse riders in the world of Spidey and his archenemies. The height of park design and creativity when it debuted, Spider-Man borders on mind-altering  <span class="inch24">Riders must be at least 24 inches tall.</span></p>
+            </div>
+          </div>
+          <div class="row rides kidsRide">
+            <div class="col-4">
+              <img src="img/avatar.jpeg" alt="Avatar Flight of Passage">
+            </div>
+            <div class="col-6">
+              <h3>Avatar Flight of Passage</h3>
+              <p>Flight of Passage takes the "flying theater" concept that Disney developed for its Soarin' rides (which also make the list of best theme park attractions) to the next level. Riders not only take wing aboard a banshee to fly above Pandora, but they can also feel the creatures' diaphragms expand and contract as they breathe. It is an utterly convincing, transporting, and ethereal experience.  <span class="inch24">Riders must be at least 24 inches tall.</span></p>
+            </div>
+          </div>
+          <div class="row rides kidsRide">
+            <div class="col-4">
+              <img src="img/radiator.jpeg" alt="Radiator Springs Racers">
+            </div>
+            <div class="col-6">
+              <h3>Radiator Springs Racers</h3>
+              <p>Radiator Springs Racers is the featured attraction at Cars Land. An instant classic, it combines incredibly detailed animated characters and impressive storytelling with a thrill-filled finale. This Cars ride is at Disney California Adventure.  <span class="inch24">Riders must be at least 24 inches tall.</span></p>
+            </div>
+          </div>
+        </div>
+        <div id="toddlerRides">
+          <div class="row rides kidsRide">
+            <div class="col-4">
+              <img src="img/wonderland.jpg" alt="Wonderland Kidsville and Planet Snoopy">
+            </div>
+            <div class="col-6">
+              <h3>Wonderland Kidsville and Planet Snoopy</h3>
+              <p>Along with Kidsville, a dedicated area for little ones that debuted in 1998, Planet Snoopy welcomes pre-schoolers with tyke-friendly characters, entertainment and special rides scaled to size. Two Baby Care centers, stroller rentals and kid-friendly dining options cater to families with small children.  <span class="inch12">Riders must be at least 12 inches tall and no more than 20 inches tall.</span></p>
+            </div>
+          </div>
+          <div class="row rides kidsRide">
+            <div class="col-4">
+              <img src="img/storyland.jpg" alt="Storyland">
+            </div>
+            <div class="col-6">
+              <h3>Storyland</h3>
+              <p>You’ll get a big bang for your family buck at Story Land, a small-scale kids amusement park that’s perfect for the preschool set. Most of the rides at the White Mountains, New Hampshire area attraction are geared towards children ages 7 and under, such as Alice’s Tea Cup and Whirling Whales.  <span class="inch12">Riders must be at least 12 inches tall and no more than 20 inches tall.</span></p>
+            </div>
+          </div>
+          <div class="row rides kidsRide">
+            <div class="col-4">
+              <img src="img/cars.jpg" alt="Cars at Disneyland">
+            </div>
+            <div class="col-6">
+              <h3>Disneyland</h3>
+              <p>The West Coast counterpart to Disney’s Magic Kingdom Park, Disneyland holds the title of Walt Disney’s first and original theme park in Anaheim, California. Due to its smaller size and scope as compared to its Florida sister, it tends to be easier to navigate for families with small children.  <span class="inch12">Riders must be at least 12 inches tall and no more than 20 inches tall.</span></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

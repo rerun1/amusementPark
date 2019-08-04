@@ -1,3 +1,15 @@
+/* css for version of site that hides and shows classes */
+
+/* #adultRides, #kidsRides,  #toddlerRides {
+  display: none;
+} */
+
+#rideConditions1, #rideConditions2, #rideConditions3 {
+  display: none;
+}
+.ridesContainer {
+  display: none;
+}
 /*begin tisa*/
 @font-face {
   font-family: 'ff-tisa-web-pro';
@@ -175,20 +187,105 @@ h1 {
   margin-bottom: .25em;
 }
 h3 {
-color: rgba(255,255,255, 0.65);
+color: rgba(76, 86, 96, 1.0);
 }
+
+.intro p {
+  font-size: 1.25em;
+  text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.imagery {
+  background-color: rgba(255,255,255,1.0);
+}
+.imagery img {
+  width: 100%;
+}
+
+.imagery p {
+  font-size: 1.5em;
+  color: blue;
+  text-align: center;
+}
+form input {
+  width: 60%;
+}
+form button {
+  width: 40%;
+}
+
 .inch48 {
-  color: rgba(76, 86, 96, 1.0);
+  color: rgba(76, 86, 96, 0.5);
 }
-.adultRide {
-  background-color: rgba(255,255,255, 0.25);
+.inch24 {
+  color: rgba(76, 86, 96, .75);
+}
+.inch12 {
+  color: rgba(76, 86, 96, .75);
+}
+
+.inch48Red {
+  color: red;
+}
+.inch24Red {
+  color: red;
+}
+.inch12Red {
+  color: red;
+}
+
+.inch48Green {
+  color:green;
+}
+.inch24Green {
+  color: green;
+}
+.inch12Green {
+  color: green;
+}
+
+.inch48Blue {
+  color:blue;
+}
+.inch24Blue {
+  color: blue;
+}
+.inch12Blue {
+  color: blue;
+}
+
+.ridesContainer {
+  background-image: linear-gradient(to bottom, rgba(255,255,255, 0.0), rgba(255,255,255, .65));
+  margin:0 -15px 0 -15px;
+  padding:0 0 0 0;
+}
+.rides {
+  background-color: rgba(255,255,255, 0.45);
   padding-top:.5em;
 }
-.adultRide img {
+.rides img {
   float: right;
-  height: 150px;
+  height: 100px;
   margin-bottom: 1em;
 }
+.rides p {
+  color: rgba(76, 86, 96, .8);
+}
 .adultRide p {
-  color: rgba(255,255,255, 0.75);
+  color: rgba(76, 86, 96, 1.0);
+}
+@media screen and (max-width: 800px) {
+
+  .imagery p {
+    font-size: 1em;
+    color: blue;
+    text-align: center;
+  }
+  form input {
+    width: 50%;
+  }
+  form button {
+    width: 50%;
+  }
+
 }
